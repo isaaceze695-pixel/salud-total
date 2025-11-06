@@ -1,0 +1,7 @@
+body, html { height:100%; margin:0; font-family:Arial, sans-serif; }
+.portada { background: linear-gradient(135deg,#007bff,#00c3ff); display:flex; align-items:center; justify-content:center; color:white; text-align:center; height:100vh; }
+.contenido { animation:fadein 2s; }
+@keyframes fadein { 0%{opacity:0;}100%{opacity:1;} }
+.boton { background:white; color:#007bff; padding:12px 24px; text-decoration:none; border-radius:30px; font-weight:bold; }
+.boton:hover { background:#0056b3; color:white; }
+.logo { width:100px; height:100px; margin-bottom:15px; }
